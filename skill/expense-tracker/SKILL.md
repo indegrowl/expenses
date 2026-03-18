@@ -47,6 +47,8 @@ Keep the format compatible with hledger.
 
 Prefer to show the proposed hledger transaction first. After confirmation, apply it.
 
+If running locally, you can use `scripts/add-expense.sh` to append + validate (it reverts on invalid entries).
+
 ## Useful hledger commands (reference)
 
 Run commands from the repo root.
