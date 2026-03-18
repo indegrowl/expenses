@@ -1,0 +1,57 @@
+; Commodity declarations
+commodity INR 1,000.00
+commodity USD 1,000.00
+commodity ICICIBANK 1,000
+
+; Account declarations (from user prefs)
+account Assets:Bank:HDFC           ; type: A
+account Assets:Bank:SBI            ; type: A
+account Assets:Bank:ICICI          ; type: A
+account Assets:Bank:Axis           ; type: A
+account Assets:Bank:Kotak          ; type: A
+account Assets:Bank:YesBank        ; type: A
+account Assets:Bank:Federal        ; type: A
+account Assets:Bank:IndusInd       ; type: A
+
+account Assets:Wallet:GPay         ; type: A
+account Assets:Wallet:Paytm        ; type: A
+account Assets:Wallet:PhonePe      ; type: A
+account Assets:Wallet:CRED         ; type: A
+account Assets:Wallet:AmazonPay    ; type: A
+account Assets:Cash                ; type: A
+
+account Assets:Investments:Stocks  ; type: A
+account Assets:Investments:MF      ; type: A
+account Assets:Investments:PPF     ; type: A
+account Assets:Investments:EPF     ; type: A
+account Assets:Investments:NPS     ; type: A
+account Assets:Investments:Crypto  ; type: A
+account Assets:Investments:Gold    ; type: A
+
+account Assets:FD                  ; type: A
+account Assets:FD:HDFC             ; type: A
+account Assets:FD:SBI              ; type: A
+
+account Liabilities:CreditCard:HDFC   ; type: L
+account Liabilities:CreditCard:SBI    ; type: L
+account Liabilities:CreditCard:ICICI  ; type: L
+account Liabilities:CreditCard:Axis   ; type: L
+
+account Liabilities:Loan:HDFC     ; type: L
+account Liabilities:Loan:SBI      ; type: L
+account Liabilities:Loan:Car      ; type: L
+account Liabilities:Loan:Home     ; type: L
+
+account Income:Salary              ; type: R
+account Income:Freelance           ; type: R
+account Income:Dividends           ; type: R
+account Income:Interest            ; type: R
+account Income:Rental              ; type: R
+account Income:CapitalGains:STCG   ; type: R
+account Income:CapitalGains:LTCG   ; type: R
+
+account Equity:Opening             ; type: E
+
+account Expenses:Relationship:Bhavana ; type: X
+account Expenses:Cloud:Services    ; type: X
+account Expenses:SnapStreak     ; type: X

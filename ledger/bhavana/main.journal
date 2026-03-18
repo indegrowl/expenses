@@ -1,0 +1,8 @@
+; main.journal — Bhavana's personal ledger
+; Run: hledger -f ~/finance/bhavana/main.journal <command>
+
+include accounts.journal
+include prices.journal
+include budget.journal
+include 2026.journal
+

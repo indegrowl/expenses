@@ -1,0 +1,14 @@
+; Commodity declarations
+commodity INR 1,000.00
+
+; Account declarations
+account Assets:Bank:ICICI              ; type: A
+account Assets:Bank:UBI               ; type: A
+
+account Equity:OpeningBalance         ; type: E
+
+account Expenses:Food:Treats          ; type: X
+account Expenses:Food:Groceries       ; type: X
+account Expenses:Relationship:Naman   ; type: X
+account Expenses:Transport:Commute    ; type: X
+account Expenses:Waste                ; type: X
