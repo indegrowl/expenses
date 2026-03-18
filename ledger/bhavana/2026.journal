@@ -1,0 +1,71 @@
+; Transactions for 2026 — start with opening balances
+D 1,00,00,000.00 INR
+
+2026-02-14 * Opening Balance
+    Assets:Bank:ICICI            43762.52 INR
+    Assets:Bank:UBI              56586.31 INR
+    Equity:OpeningBalance
+
+2026-02-15 * Bought InstaX mini film pack of 20 for Naman
+    Expenses:Relationship:Naman    1479.00 INR
+    Assets:Bank:ICICI             -1479.00 INR
+
+2026-02-15 * Had lemon soda on the street with Naman
+    Expenses:Food:Treats    50.00 INR
+    Assets:Bank:ICICI      -50.00 INR
+
+2026-02-16 * Ordered breakfast for Naman when he was in the office
+    Expenses:Relationship:Naman    158.00 INR
+    Assets:Bank:ICICI             -158.00 INR
+
+2026-02-16 * Bought Groceries for Naman's home
+    Expenses:Relationship:Naman    353.00 INR
+    Assets:Bank:ICICI             -353.00 INR
+
+2026-02-16 * Bought Domino's for Naman's dinner
+    Expenses:Relationship:Naman    543.90 INR
+    Assets:Bank:ICICI             -543.90 INR
+
+2026-02-17 * Treated myself with lotti choco pie, kinder joy and other small stuff
+    Expenses:Food:Treats    85.00 INR
+    Assets:Bank:ICICI      -85.00 INR
+
+2026-02-17 * Travelled back from Naman's home
+    Expenses:Relationship:Naman    86.00 INR
+    Assets:Bank:ICICI             -86.00 INR
+
+2026-02-17 * Flour Grinding
+    Expenses:Food:Groceries    40.00 INR
+    Assets:Bank:ICICI         -40.00 INR
+
+2026-02-17 * Forgot my ID at Naman's place and had to Rapido it back home
+    Expenses:Waste            63.00 INR
+    Assets:Bank:ICICI        -63.00 INR
+
+2026-02-18 * Money returned by Naman for InstaX Mini Film
+    Expenses:Relationship:Naman    -1479.00 INR
+    Assets:Bank:ICICI               1479.00 INR
+
+2026-02-18 * Received from Naman for groceries
+    Expenses:Relationship:Naman    -353.00 INR
+    Assets:Bank:ICICI               353.00 INR
+
+2026-02-18 * Ate Zepto Cafe in the morning
+    Expenses:Food:Treats    165.90 INR
+    Assets:Bank:ICICI      -165.90 INR
+
+2026-02-18 * Rapido to kanth risa house while searching for 2BHKs
+    Expenses:Transport:Commute    58.00 INR
+    Assets:Bank:ICICI            -58.00 INR
+
+2026-02-18 * Metro tickets to go to Raidurg — searching for houses
+    Expenses:Transport:Commute    122.00 INR
+    Assets:Bank:ICICI            -122.00 INR
+
+2026-02-18 * Rapido till Raidurg station — coming back from house searching
+    Expenses:Transport:Commute    145.00 INR
+    Assets:Bank:ICICI            -145.00 INR
+
+2026-02-18 * Given by Naman
+    Expenses:Relationship:Naman    -100.00 INR
+    Assets:Bank:ICICI               100.00 INR

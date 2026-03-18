@@ -1,0 +1,198 @@
+; Transactions for 2026 — start with opening balances
+D 1,00,00,000.00 INR
+
+2026-02-01 * Opening Balances
+    Assets:Cash:Wallet                             1766.00 INR
+    Assets:Bank:SBI                               11045.98 INR
+    Assets:Bank:HDFC                               1449.85 INR
+    Assets:Investments:FixedDeposit:HDFC        100000.00 INR
+    Liabilities:CreditCard:SBI:Flipkart         -49089.96 INR
+    Liabilities:Loans:Dad                       -155800.00 INR
+    Liabilities:Loans:Mom                       -136670.00 INR
+    Assets:Receivable:Taskeer                      500.00 INR
+    Assets:Receivable:Pooja                       5000.00 INR
+    Assets:Investments:Stocks:ICICIBANK:Lot-20250307    1 ICICIBANK @ 1214.65 INR
+    Assets:Investments:Stocks:ICICIBANK:Lot-20250320    1 ICICIBANK @ 1317.45 INR
+    Assets:Investments:Stocks:ICICIBANK:Lot-20250803    2 ICICIBANK @@ 2952.20 INR
+    Equity:OpeningBalance
+
+2026-02-08 * Electric bill ; pre-journal, SBI payment already reflected in opening balance
+    Assets:Receivable:GharKharch    461.00 INR
+    Equity:Opening                  -461.00 INR
+
+2026-02-11 * Groceries from home ; pre-journal, SBI payment already reflected in opening balance
+    Assets:Receivable:GharKharch    229.00 INR
+    Equity:Opening                  -229.00 INR
+
+2026-02-14 * YouTube Premium | monthly subscription
+    Expenses:Entertainment:Subscriptions:YouTube   159.00 INR    ; subscription:monthly
+    Assets:Bank:SBI                                -159.00 INR
+
+2026-02-14 * Bought a journal, turned out to be bad quality
+    Expenses:Waste                                252.00 INR
+    Assets:Bank:SBI                                -252.00 INR
+
+2026-02-15 * InstaX mini film pack of 20
+    Expenses:Photography:InstaXFilm    1479.00 INR
+    Assets:Bank:SBI                   -1479.00 INR
+
+2026-02-15 * Petrol
+    Expenses:Transport:Fuel           3000.00 INR    ; car:brezza
+    Assets:Bank:SBI                   -3000.00 INR
+
+2026-02-15 * Received from mom to pay Sri Tanvi (intern)
+    Assets:Bank:SBI                   5000.00 INR
+    Liabilities:Payable:SriTanvi     -5000.00 INR
+
+2026-02-19 * Audible | cleared
+    Expenses:Books:Audible  199.00 INR    ; subscription:monthly
+    Assets:Bank:SBI       -199.00 INR
+
+2026-02-19 * Payment to Sri Tanvi | settle payable
+    Liabilities:Payable:SriTanvi                 5000.00 INR
+    Assets:Bank:SBI                              -5000.00 INR
+
+2026-02-20 * Microsoft 365 | monthly subscription
+    Expenses:Cloud:Services   689.00 INR    ; subscription:monthly
+    Assets:Bank:SBI               -689.00 INR
+
+2026-02-20 * Food treats
+    Expenses:Food:Treats            220.19 INR
+    Assets:Bank:SBI                 -220.19 INR
+
+2026-02-21 * Pooja — repayment
+    Assets:Bank:SBI                 5000.00 INR
+    Assets:Receivable:Pooja        -5000.00 INR
+
+2026-02-22 * Chocolates
+    Expenses:Food:Treats        389.75 INR
+    Assets:Bank:SBI            -389.75 INR
+
+2026-02-22 * Received from Bhavana
+    Assets:Bank:SBI            5000.00 INR
+    Expenses:Relationship:Bhavana  -5000.00 INR
+
+2026-02-23 * Snap streak restore
+    Expenses:SnapStreak    69.00 INR
+    Assets:Bank:SBI        -69.00 INR
+
+2026-02-23 * Given Bhavana 2000
+    Expenses:Relationship:Bhavana    2000.00 INR
+    Assets:Bank:SBI                 -2000.00 INR
+
+2026-02-23 * Cravery (with Bhavana)
+    Expenses:Food:Dining            807.00 INR
+    Assets:Bank:SBI                -807.00 INR
+
+2026-02-23 * Hostinger VPS
+    Expenses:Cloud:Services        883.82 INR    ; subscription:monthly
+    Assets:Bank:SBI               -883.82 INR
+
+2026-02-23 * Claude Code
+    Expenses:Cloud:Services       2190.55 INR    ; subscription:monthly
+    Assets:Bank:SBI              -2190.55 INR
+
+2026-02-24 * Snap streak restore
+    Expenses:SnapStreak    29.00 INR
+    Assets:Bank:SBI       -29.00 INR
+
+2026-02-16 * Lotti choco pie, kinder joy and small snacks
+    Expenses:Food:Treats             135.00 INR
+    Assets:Bank:SBI                 -135.00 INR
+
+2026-02-16 * Coconut water
+    Expenses:Food:Treats              50.00 INR
+    Assets:Bank:SBI                  -50.00 INR
+
+2026-02-17 * Co-working space
+    Expenses:Office:Rent            3440.00 INR
+    Assets:Bank:SBI                 -3440.00 INR
+
+2026-02-17 * Groceries (to be reimbursed from Ghar Kharch)
+    Assets:Receivable:GharKharch     716.50 INR
+    Assets:Bank:SBI                 -716.50 INR
+
+2026-02-17 * Strawberries
+    Expenses:Food:Treats              80.00 INR
+    Assets:Bank:SBI                  -80.00 INR
+
+2026-02-18 * Taskeer — repayment
+    Assets:Bank:SBI                 500.00 INR
+    Assets:Receivable:Taskeer      -500.00 INR
+
+2026-02-18 * Received from Ghar Kharch
+    Assets:Bank:SBI               1406.50 INR
+    Assets:Receivable:GharKharch -1406.50 INR
+
+2026-02-18 * Parcel: Comet Rev6 — Mecha reimbursement
+    Assets:Receivable:Mecha       1022.00 INR    ; followup
+    Assets:Bank:SBI              -1022.00 INR
+
+2026-02-18 * Given Bhavana 100
+    Expenses:Relationship:Bhavana    100.00 INR
+    Assets:Bank:SBI                 -100.00 INR
+
+2026-02-19 * Cravery (with Bhavana)
+    Expenses:Food:Dining            593.00 INR
+    Assets:Bank:SBI                 -593.00 INR
+
+2026-02-24 * Unknown extra
+    Assets:Bank:SBI                 1.10 INR
+    Income:Misc:Unknown            -1.10 INR
+
+
+2026-02-23 ! Federal Bank Signet | Bayesian Statistics the Fun Way
+    Expenses:Books:Learning        1934.00 INR
+    Liabilities:CreditCard:Federal -1934.00 INR
+
+2026-02-20 * HDFC annual debit-card fee
+    Expenses:Finance:BankCharges    354.00 INR
+    Assets:Bank:HDFC              -354.00 INR
+
+2026-02-23 * Adobe Lightroom & Photoshop | monthly subscription
+    Expenses:Photography:Software    599.00 INR    ; subscription:monthly
+    Assets:Bank:HDFC               -599.00 INR
+
+2026-02-24 * Cab to office
+    Expenses:Transport:Cab       844.00 INR
+    Assets:Bank:SBI            -844.00 INR
+
+2026-02-24 * Dining
+    Expenses:Food:Dining        180.00 INR
+    Assets:Bank:SBI            -180.00 INR
+
+2026-02-24 * Treats
+    Expenses:Food:Treats      60.00 INR
+    Assets:Bank:SBI         -60.00 INR
+
+2026-02-24 * Coffee powder
+    Expenses:Food:Groceries      1170.00 INR
+    Assets:Bank:SBI            -1170.00 INR
+
+2026-02-23 * Auto to friend's home
+    Expenses:Transport:Auto        85.00 INR
+    Assets:Bank:SBI              -85.00 INR
+
+2026-02-23 * Google Play refund — Snap streak restore refund
+    Assets:Bank:SBI              69.00 INR
+    Expenses:SnapStreak          -69.00 INR
+
+2026-02-27 * Chocolates and roasted kaju
+    Expenses:Food:Treats      416.00 INR
+    Assets:Bank:SBI         -416.00 INR
+
+2026-02-28 Xerox for Bhavana
+    Expenses:Relationship:Bhavana              10 INR
+    Assets:Bank:SBI                           -10 INR
+
+2026-03-01 Groceries (to be reimbursed from Ghar Kharch)
+    Assets:Receivable:GharKharch             456 INR
+    Assets:Bank:SBI                         -456 INR
+
+2026-03-01 Paint for Balcony Grill (Reimburshable from Ghar Kharch)
+    Assets:Receivable:GharKharch             300 INR
+    Assets:Bank:SBI                         -300 INR
+
+2026-03-01 Print outs for Dad
+    Expenses:Misc                21 INR
+    Assets:Bank:SBI             -21 INR
