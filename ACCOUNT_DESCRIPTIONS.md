@@ -8,6 +8,8 @@ Conventions:
 - Expense accounts are positive; payments/asset decreases show as negative on the asset side.
 - For relationship reimbursements, we currently use `Expenses:Relationship:*` as a clearing bucket in the journals (positive = you paid for them; negative = they paid/returned to you).
 
+See also: `CATEGORY_REVIEW.md` (a blunt critique + suggested improvements, with references to `case-studies/`).
+
 ---
 
 ## Naman ledger (`ledger/naman/*`)
